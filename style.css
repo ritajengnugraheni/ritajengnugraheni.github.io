@@ -139,7 +139,8 @@ body{
       z-index: 1; }
 .sub-project{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .foto-portofolio{
     width: 500px;
@@ -228,4 +229,21 @@ body{
 .foto-about{
     width: 300px;
     height: auto;
+}
+.foto-portofolio-skill{
+    border-radius: none;
+    width: 350px;
+    height: 50 0px;
+    border: 5px solid  rgb(31, 126, 110);
+    line-height: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.foto-portofolio-skill:hover{
+    cursor: pointer;
+}
+.pergantian {
+    width: auto;
+    height: 200px;
 }

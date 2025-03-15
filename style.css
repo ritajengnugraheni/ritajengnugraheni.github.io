@@ -5,9 +5,10 @@ p{
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
    
 } */
-body{
+body {
     position: relative;
 }
+
 .fix-position {
     overflow: hidden;
     background-color: white;
@@ -17,25 +18,30 @@ body{
     width: 100%;
 
 }
-.menu{
+
+.menu {
     color: black;
     padding: 5px 10px;
     text-decoration: none;
-     
+
 }
-.menu:hover{
+
+.menu:hover {
     color: rgb(31, 126, 110);
     text-decoration: inherit
 }
-.menu-contact{
+
+.menu-contact {
     color: rgb(31, 126, 110);
     padding: 5px 10px;
     text-decoration: none
 }
-.menu-contact:hover{
-    color:blue;
+
+.menu-contact:hover {
+    color: blue;
     text-decoration: inherit
 }
+
 .navigasi {
     margin: 20px
 }
@@ -46,55 +52,73 @@ body{
     height: 610px;
     background-repeat: no-repeat;
 }
-.start{
+
+.start {
     background-color: none;
     border: 2px solid white;
     width: 200px;
     height: 300px;
-    color: white;
     padding: 10px 50px;
-    border-radius: 30px
-  }
-  .start:hover{
+    border-radius: 30px;
+
     cursor: pointer;
     color: white;
-    background-color: rgb(31, 126, 110);
+    background-color: #606E49;
     transition: 0.3s;
+    transform: translateY(-3px);
+
+}
+
+.start:hover {
+    cursor: pointer;
     text-decoration: none;
-    
-  }
-  
-  .site-blocks-cover {
+    color: white;
+}
+
+.site-blocks-cover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    background-position: center center; }
-    .site-blocks-cover.overlay {
-      position: relative; }
-      .site-blocks-cover.overlay:before {
-        position: absolute;
-        content: "";
-        left: 0;
-        bottom: 0;
-        right: 0;
-        top: 0;
-        background: rgba(0, 0, 0, 0.4); }
-    .site-blocks-cover, .site-blocks-cover .row {
-      min-height: 600px;
-      height: calc(100vh); } 
+    background-position: center center;
+}
+
+.site-blocks-cover.overlay {
+    position: relative;
+}
+
+.site-blocks-cover.overlay:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.site-blocks-cover,
+.site-blocks-cover .row {
+    min-height: 600px;
+    height: calc(100vh);
+}
+
 .site-section {
     padding: 2.5em;
 }
+
 .judul {
     color: rgb(31, 126, 110);
 }
+
 .judul-putih {
     color: white;
     font-family: Arial, Helvetica, sans-serif
 }
-.sekolah{
+
+.sekolah {
     margin-left: 100
 }
+
 .experience-item .number {
     width: 50px;
     height: 50px;
@@ -107,89 +131,107 @@ body{
     text-align: center;
     font-size: 20px;
     border-radius: 50%;
-    margin-bottom: 40px; }
-  
-  .experience-item h2 {
+    margin-bottom: 40px;
+}
+
+.experience-item h2 {
     font-size: 18px;
     margin-bottom: 30px;
-    color: #fff; }
-  
-  .experience-item p {
-    color: white; }
+    color: #fff;
+}
+
+.experience-item p {
+    color: white;
+}
+
 .bg-foto {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed; }
-    .bg-foto.overlay {
-      position: relative; }
-      .bg-foto.overlay:after {
-        position: absolute;
-        content: "";
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 0;
-        width: 100%;
-        /* height: 100%; */
-        background: rgba(0, 0, 0, 0.7); }
-    .bg-foto > .container {
-      position: relative;
-      z-index: 1; }
-.sub-project{
+    background-attachment: fixed;
+}
+
+.bg-foto.overlay {
+    position: relative;
+}
+
+.bg-foto.overlay:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    /* height: 100%; */
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.bg-foto>.container {
+    position: relative;
+    z-index: 1;
+}
+
+.sub-project {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-.foto-portofolio{
+
+.foto-portofolio {
     width: 500px;
     height: 500px;
-    
+
 }
-.foto-portofolio-profile{
+
+.foto-portofolio-profile {
     border-radius: 100%;
     width: 350px;
     height: 50 0px;
-    border: 10px solid  rgb(31, 126, 110);
+    border: 10px solid rgb(31, 126, 110);
     line-height: 44px;
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
-    
-    
+
+
 }
-.bg-putih{
+
+.bg-putih {
     color: white;
 }
-.bg-grey{
+
+.bg-grey {
     color: rgb(204, 204, 204)
 }
-.font-grey{
+
+.font-grey {
     color: rgb(124, 124, 124);
     font-size: 17px
 }
-.btn-color{
+
+.btn-color {
     color: rgb(31, 126, 110);
 }
-.foto-portofolio-sosial-media{
+
+.foto-portofolio-sosial-media {
     border-radius: 100%;
     width: 50px;
     height: 50 0px;
-    border: 5px solid  white;
+    border: 5px solid white;
     line-height: 44px;
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
     background-color: white
-    
-    
 }
-.foto-portofolio-sosial-media:hover{
+
+.foto-portofolio-sosial-media:hover {
     border-radius: 100%;
     width: 50px;
     height: 50 0px;
-    border: 5px solid  rgb(44, 164, 233);
+    border: 5px solid rgb(44, 164, 233);
     line-height: 44px;
     display: inline-block;
     margin-top: 20px;
@@ -197,53 +239,333 @@ body{
     background-color: white;
     cursor: pointer;
 }
-.foto-portofolio-project{
+
+.foto-portofolio-project {
     border-radius: 4px;
     width: 350px;
     height: 50 0px;
-    border: 10px solid  rgb(31, 126, 110);
+    border: 10px solid rgb(31, 126, 110);
     line-height: 44px;
     display: inline-block;
     margin-top: 20px;
     margin-left: 20px;
-    
-    
+
+
 }
 
-.font-putih{
+.font-putih {
     color: white;
     font-size: 17px
 }
-.font-hijau{
-    color:  rgb(31, 126, 110);
+
+.font-hijau {
+    color: rgb(31, 126, 110);
     font-size: 17px
 }
-.font-grey-link{
-    color:rgb(31, 126, 110) ;
+
+.font-grey-link {
+    color: rgb(31, 126, 110);
     font-size: 17px
 }
-.font-grey-link:hover{
+
+.font-grey-link:hover {
     color: rgb(44, 164, 233);
     cursor: pointer;
 }
-.foto-about{
+
+.foto-about {
     width: 300px;
     height: auto;
 }
-.foto-portofolio-skill{
+
+.foto-portofolio-skill {
     border-radius: none;
     width: 350px;
     height: 50 0px;
-    border: 5px solid  rgb(31, 126, 110);
+    border: 5px solid rgb(31, 126, 110);
     line-height: 10px;
     display: inline-block;
     margin-top: 10px;
     margin-left: 10px;
 }
-.foto-portofolio-skill:hover{
+
+.foto-portofolio-skill:hover {
     cursor: pointer;
 }
+
 .pergantian {
     width: auto;
     height: 200px;
 }
+
+/* Header and Navigation Styles */
+header {
+    height: 50px;
+    /* Reduced height */
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    /* Smaller shadow */
+    padding: 0;
+    /* Removed padding */
+    transition: all 0.3s ease;
+}
+
+.navigasi {
+    padding: 0;
+    /* Removed padding */
+    width: 100%;
+    min-height: 50px;
+    /* Set minimum height */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+    /* Fixed height */
+}
+
+.menu {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 3px 0;
+    /* Reduced padding */
+    font-size: 14px;
+    /* Smaller font size */
+}
+
+.menu:hover {
+    color: #606E49;
+    text-decoration: none;
+}
+
+/* Active menu item */
+.menu.active {
+    color: #606E49;
+}
+
+.menu.active::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    /* Adjusted position */
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #606E49;
+}
+
+/* Shrink header on scroll - even smaller */
+.fixed-top.scrolled {
+    min-height: 40px;
+    /* Even smaller when scrolled */
+}
+
+.fixed-top.scrolled .nav-container {
+    height: 40px;
+}
+
+/* Tablet-specific styles (including iPad Mini) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .menu {
+        margin: 0 10px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    /* Ensure the d-none d-xl-block class doesn't hide content on tablets */
+    .d-none.d-xl-block {
+        display: block !important;
+    }
+
+    /* Ensure the fixed-top nav is visible */
+    .fixed-top {
+        display: block !important;
+    }
+}
+
+/* Smaller tablets and large phones */
+@media (min-width: 576px) and (max-width: 767px) {
+    .menu {
+        margin: 0 8px;
+        font-size: 13px;
+    }
+
+    .nav-container {
+        padding: 0 5px;
+    }
+}
+
+/* Phones */
+@media (max-width: 575px) {
+    .menu {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+
+    .nav-container {
+        padding: 0;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 360px) {
+    .menu {
+        margin: 0 3px;
+        font-size: 11px;
+    }
+}
+
+/* Hero Section with Profile Image */
+.site-blocks-cover {
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* Slightly darker overlay for better contrast */
+}
+
+.site-blocks-cover .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Profile Image Styling */
+.profile-image-container {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .profile-image-container {
+        width: 220px;
+        height: 220px;
+        border-width: 6px;
+    }
+
+    .site-blocks-cover h1 {
+        font-size: 32px !important;
+    }
+
+    .site-blocks-cover p {
+        font-size: 18px !important;
+    }
+
+    .start {
+        font-size: 18px !important;
+    }
+
+    /* Reduce the gap between image and text */
+    .col-md-5.mb-4.mb-md-0 {
+        margin-bottom: -12px !important;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .profile-image-container {
+        width: 220px;
+        height: 220px;
+        border-width: 5px;
+    }
+
+    .site-blocks-cover h1 {
+        font-size: 28px !important;
+    }
+    .col-md-5.mb-4.mb-md-0 {
+        margin-bottom: 0px !important;
+    }
+      
+}
+
+
+/* Additional mobile spacing adjustments */
+@media (max-width: 767px) {
+    /* Add a class for more compact mobile layout */
+    .mobile-compact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px; /* Modern way to control spacing between flex items */
+    }
+    
+    .photo-column, .text-column {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    
+    /* Ensure text is properly centered on mobile */
+    .text-column {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mobile-compact {
+      gap: 62px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .mobile-compact {
+      gap: 8px;
+    }
+  }
+
+  

@@ -60,13 +60,25 @@ body {
     height: 300px;
     padding: 10px 50px;
     border-radius: 30px;
-
     cursor: pointer;
     color: white;
     background-color: #606E49;
     transition: 0.3s;
     transform: translateY(-3px);
 
+}
+
+.start2 {
+    background-color: none;
+    border: 2px solid #606E49;
+    width: 100px;
+    height: 300px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: #7FC6A6;
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
 .start:hover {
@@ -228,7 +240,7 @@ body {
     border-radius: 100%;
     width: 350px;
     height: 50 0px;
-    border: 10px solid rgb(31, 126, 110);
+    border: 10px solid rgb(255, 255, 255);
     line-height: 44px;
     display: inline-block;
     margin-top: 20px;
@@ -384,7 +396,7 @@ header {
     position: relative;
     padding: 3px 0;
     /* Reduced padding */
-    font-size: 14px;
+    font-size: 17px;
     /* Smaller font size */
 }
 

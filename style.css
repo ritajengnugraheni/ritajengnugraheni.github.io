@@ -81,7 +81,29 @@ body {
     transform: translateY(-3px);
 }
 
+.start3 {
+    background-color: none;
+
+    width: 200px;
+    height: 300px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #606E49;
+    transition: 0.3s;
+    transform: translateY(-3px);
+
+}
+
+
 .start:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.start3:hover {
     cursor: pointer;
     text-decoration: none;
     color: white;
